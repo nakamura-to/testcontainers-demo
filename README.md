@@ -1,10 +1,16 @@
 # Testcontainersを使ってテストを効率化しよう
 
-Testcontainersの利用例です。
+このリポジトリはTestcontainersの利用例を示します。
 
-この例には、次の特徴があります。
+この例の特徴は以下の通りです。
 
-- プログラミング言語にはKotlinを使う
-- データベースにはPostgreSQLを使う
-- データベースアクセスのフレームワークには[Komapper](https://github.com/komapper/komapper)を使う
-- ビルドツールにはGradleを使う
+- プログラミング言語：Kotlin
+- データベース：PostgreSQL
+- データベースアクセスのフレームワーク：[Komapper](https://github.com/komapper/komapper)
+- ビルドツール：Gradle
+
+動作をさせるにはDockerが動く環境で以下のコマンドを実行してください。
+
+```kotlin
+./gradlew build
+```
